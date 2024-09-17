@@ -1,0 +1,140 @@
+----------------------------------------------
+------------------- Create ------------------- 
+----------------------------------------------
+
+client_id varchar (35) NOT NULL
+sku varchar (35) NOT NULL
+top varchar (35) NOT NULL
+category varchar (35) NULL
+month varchar (35) NULL
+year int4 NULL
+
+PRIMARY KEY (client_id, sku, top)
+
+
+----------------------------------------------
+------------------- Insert ------------------- 
+----------------------------------------------
+
+(client_id, sku, top, category, month, year)
+
+('100000006', '3017987', 1, 'INTRODUCE', 'august', 2024)
+('100000006', '3000933', 22, 'INTRODUCE', 'august', 2024)
+('100000006', '3000022', 3, 'INTRODUCE', 'august', 2024)
+('100000006', '3008990', 4, 'SUSTAIN', 'august', 2024)
+('100000006', '3001268', 55, 'INTRODUCE', 'august', 2024)
+('100000006', '3008402', 6, 'INTRODUCE', 'august', 2024)
+('100000006', '3008460', 78, 'INTRODUCE', 'august', 2024)
+('100000006', '3008717', 8, 'INTRODUCE', 'august', 2024)
+('100000006', '3008450', 9, 'INTRODUCE', 'august', 2024)
+('100000006', '3000877', 16, 'INTRODUCE', 'august', 2024)
+('100000006', '3017617', 11, 'INTRODUCE', 'august', 2024)
+('100000006', '3008787', 12, 'INTRODUCE', 'august', 2024)
+('100000006', '3006519', 13, 'INTRODUCE', 'august', 2024)
+('100000006', '3007532', 14, 'INTRODUCE', 'august', 2024)
+('100000006', '3000199', 15, 'INTRODUCE', 'august', 2024)
+('100000011', '3009013', 1, 'INTRODUCE', 'august', 2024)
+('100000011', '3000024', 2, 'INTRODUCE', 'august', 2024)
+('100000011', '3000009', 3, 'INTRODUCE', 'august', 2024)
+('100000011', '3003697', 4, 'INTRODUCE', 'august', 2024)
+('100000011', '3000877', 5, 'INTRODUCE', 'august', 2024)
+('100000011', '3000179', 6, 'INTRODUCE', 'august', 2024)
+('100000011', '3017617', 7, 'INTRODUCE', 'august', 2024)
+('100000011', '3000199', 8, 'INTRODUCE', 'august', 2024)
+('100000019', '3017992', 17, 'INTRODUCE', 'august', 2024)
+('100000019', '3001268', 2, 'SUSTAIN', 'august', 2024)
+('100000019', '3008402', 3, 'INTRODUCE', 'august', 2024)
+('100000019', '3017617', 4, 'INTRODUCE', 'august', 2024)
+('100000019', '3008450', 56, 'INTRODUCE', 'august', 2024)
+('100000019', '3008717', 6, 'INTRODUCE', 'august', 2024)
+('100000019', '3008460', 7, 'INTRODUCE', 'august', 2024)
+('100000019', '3000877', 8, 'INTRODUCE', 'august', 2024)
+('100000019', '3006519', 9, 'INTRODUCE', 'august', 2024)
+('100000019', '3008787', 10, 'INTRODUCE', 'august', 2024)
+('100000019', '3008329', 110, 'INTRODUCE', 'august', 2024)
+('100000019', '3000179', 12, 'INTRODUCE', 'august', 2024)
+('100000019', '3007532', 13, 'INTRODUCE', 'august', 2024)
+('100000019', '3000022', 14, 'INTRODUCE', 'august', 2024)
+('100000019', '3003697', 15, 'INTRODUCE', 'august', 2024)
+('100000034', '3017992', 18, 'INTRODUCE', 'august', 2024)
+('100000034', '3000933', 2, 'INTRODUCE', 'august', 2024)
+('100000034', '3008989', 3, 'INTRODUCE', 'august', 2024)
+('100000034', '3010296', 48, 'INTRODUCE', 'august', 2024)
+('100000034', '3000024', 5, 'INTRODUCE', 'august', 2024)
+('100000034', '3010446', 6, 'INTRODUCE', 'august', 2024)
+('100000034', '3008717', 7, 'INTRODUCE', 'august', 2024)
+('100000034', '3010298', 8, 'INTRODUCE', 'august', 2024)
+('100000034', '3005340', 9, 'INTRODUCE', 'august', 2024)
+('100000034', '3008460', 103, 'INTRODUCE', 'august', 2024)
+('100000034', '3008402', 11, 'INTRODUCE', 'august', 2024)
+('100000034', '3000877', 12, 'INTRODUCE', 'august', 2024)
+('100000034', '3017177', 13, 'INTRODUCE', 'august', 2024)
+('100000034', '3007290', 14, 'INTRODUCE', 'august', 2024)
+('100000034', '3008450', 125, 'INTRODUCE', 'august', 2024)
+('100000039', '3017987', 1, 'INTRODUCE', 'august', 2024)
+('100000039', '3008989', 2, 'INTRODUCE', 'august', 2024)
+('100000039', '3009867', 3, 'INTRODUCE', 'august', 2024)
+('100000039', '3008450', 4, 'INTRODUCE', 'august', 2024)
+('100000039', '3007377', 5, 'INTRODUCE', 'august', 2024)
+('100000042', '3009179', 1, 'INTRODUCE', 'august', 2024)
+('100000042', '3000199', 2, 'INTRODUCE', 'august', 2024)
+('100000042', '3008787', 38, 'INTRODUCE', 'august', 2024)
+('100000042', '3007532', 4, 'INTRODUCE', 'august', 2024)
+('100000042', '3006519', 5, 'INTRODUCE', 'august', 2024)
+('100000042', '3009013', 6, 'INTRODUCE', 'august', 2024)
+('100000042', '3008329', 7, 'INTRODUCE', 'august', 2024)
+('100000042', '3008167', 8, 'INTRODUCE', 'august', 2024)
+('100000042', '3009696', 9, 'INTRODUCE', 'august', 2024)
+('100000042', '3008989', 10, 'INTRODUCE', 'august', 2024)
+('100000042', '3009209', 111, 'INTRODUCE', 'august', 2024)
+('100000042', '3000877', 12, 'INTRODUCE', 'august', 2024)
+('100000042', '3008517', 13, 'INTRODUCE', 'august', 2024)
+('100000042', '3010298', 14, 'INTRODUCE', 'august', 2024)
+('100000042', '3008450', 15, 'INTRODUCE', 'august', 2024)
+('100000043', '3017987', 1, 'INTRODUCE', 'august', 2024)
+('100000043', '3017087', 29, 'INTRODUCE', 'august', 2024)
+('100000043', '3017177', 3, 'INTRODUCE', 'august', 2024)
+('100000043', '3017617', 4, 'INTRODUCE', 'august', 2024)
+('100000043', '3000179', 5, 'INTRODUCE', 'august', 2024)
+('100000043', '3005340', 6, 'SUSTAIN', 'august', 2024)
+('100000043', '3008450', 7, 'INTRODUCE', 'august', 2024)
+('100000043', '3007532', 8, 'SUSTAIN', 'august', 2024)
+('100000043', '3008167', 9, 'SUSTAIN', 'august', 2024)
+('100000043', '3017367', 10, 'SUSTAIN', 'august', 2024)
+('100000043', '3001268', 171, 'SUSTAIN', 'august', 2024)
+('100000043', '3008989', 12, 'SUSTAIN', 'august', 2024)
+('100000043', '3008717', 13, 'INTRODUCE', 'august', 2024)
+('100000043', '3008402', 14, 'INTRODUCE', 'august', 2024)
+('100000043', '3000042', 15, 'INTRODUCE', 'august', 2024)
+('100000046', '3003697', 1, 'INTRODUCE', 'august', 2024)
+('100000046', '3000024', 2, 'INTRODUCE', 'august', 2024)
+('100000046', '3000009', 38, 'INTRODUCE', 'august', 2024)
+('100000046', '3000199', 48, 'INTRODUCE', 'august', 2024)
+('100000046', '3000877', 5, 'INTRODUCE', 'august', 2024)
+('100000046', '3000187', 6, 'INTRODUCE', 'august', 2024)
+('100000046', '3007289', 7, 'INTRODUCE', 'august', 2024)
+('100000046', '3007678', 8, 'INTRODUCE', 'august', 2024)
+('100000046', '3017617', 99, 'INTRODUCE', 'august', 2024)
+('100000063', '3000022', 1, 'INTRODUCE', 'august', 2024)
+('100000063', '3007377', 26, 'INTRODUCE', 'august', 2024)
+('100000063', '3009179', 3, 'SUSTAIN', 'august', 2024)
+
+
+----------------------------------------------
+------------------- Prueba ------------------- 
+----------------------------------------------
+
+Anexo a la prueba se encuentra el archivo 'Test SQL - Payload Final Ejemplo' 
+
+- Se debe realizar el script necesario para construir un Payload idéntico al proporcionado.
+
+Consideraciones:
+
+- La consulta Payload se debe poder construir por lotes de 10 registros.
+- Los registros contenidos en la estructura 'list' deben estar ordenados de forma ascendente.
+
+
+
+
+
+

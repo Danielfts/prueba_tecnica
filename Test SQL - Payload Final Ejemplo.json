@@ -1,0 +1,84 @@
+{
+    "content": [
+        {
+            "identifiers": {
+                "accountId": "400087203"
+            },
+            "list": [
+                {
+                    "category": "SUSTAIN",
+                    "position": "1",
+                    "value": "3000933"
+                },
+                {
+                    "category": "SUSTAIN",
+                    "position": "2",
+                    "value": "3017617"
+                },
+                {
+                    "category": "INTRODUCE",
+                    "position": "3",
+                    "value": "3001268"
+                }
+            ],
+            "type": "PRIORITY_SKU"
+        },
+        {
+            "identifiers": {
+                "accountId": "400087206"
+            },
+            "list": [
+                {
+                    "category": "INTRODUCE",
+                    "position": "1",
+                    "value": "3005340"
+                },
+                {
+                    "category": "SUSTAIN",
+                    "position": "2",
+                    "value": "3000024"
+                },
+                {
+                    "category": "SUSTAIN",
+                    "position": "3",
+                    "value": "3017157"
+                },
+                {
+                    "category": "INTRODUCE",
+                    "position": "4",
+                    "value": "3009209"
+                },
+                {
+                    "category": "INTRODUCE",
+                    "position": "5",
+                    "value": "3008450"
+                },
+                {
+                    "category": "INTRODUCE",
+                    "position": "6",
+                    "value": "3008717"
+                }
+            ],
+            "type": "PRIORITY_SKU"
+        },
+        {
+            "identifiers": {
+                "accountId": "400087207"
+            },
+            "list": [
+                {
+                    "category": "SUSTAIN",
+                    "position": "1",
+                    "value": "3007532"
+                },
+                {
+                    "category": "SUSTAIN",
+                    "position": "2",
+                    "value": "3008717"
+                }
+            ],
+            "type": "PRIORITY_SKU"
+        }
+    ],
+    "entityType": "PRIORITY"
+}
